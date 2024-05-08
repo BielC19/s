@@ -1,0 +1,13 @@
+.infos{
+    text-align: left;
+}
+.infos h4{
+    margin-bottom: 1em;
+}
+.italic{
+    font-style: italic;
+}
+.infos p{
+    margin:0 1.3em 1.3em 1.3em;
+    text-align: justify;
+}

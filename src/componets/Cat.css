@@ -1,0 +1,79 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+#root{
+    height: auto;
+    width: 100%;
+}
+.cat h1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(250, 235, 215, 0.575);
+    width: fit-content;
+    padding: 0.2em;
+    border-radius: 20px;
+}
+.cat{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    background-image: url(./images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    background-attachment: fixed;
+    place-items: center;
+    justify-content: center;
+}
+.targetes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.UPup{
+    background-color: #c5c5c5;
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    transform: rotate(-90deg);
+    text-align:right;
+}
+.card img{
+    height: 30vh;
+    width: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.AnalFigRet li {
+    padding: 0.6em 0 0 0;
+}
+.AnalFigRet li::marker{ 
+    font-weight: bold;
+}
+.AnalFigRet ol {
+    padding: 0 0 0 3em;
+}
+
+.hhaaaahha {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+footer{
+    padding-left: 2em;
+    height: 25vh;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+footer h4{
+    font-size: 20px;
+}
